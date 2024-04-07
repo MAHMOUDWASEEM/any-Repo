@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font-Family-Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet" />
+    <!-- main template css files -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Render Normalize Css File -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- all.min.css -->
+    <link rel="stylesheet" href="all.min.css" />
+    <!-- all.css -->
+    <link rel="stylesheet" href="all.css" />
+    <title>Kasper | template two</title>
+  </head>
+  <body>
+    <!-- start header  -->
+    <header>
+      <div class="container">
+        <a href="#" class="logo"> </a>
+        <img src="./images/Help/assets/logo.png" alt="" />
+        <nav>
+          <i class="fas fa-bars toggole-menu"></i>
+          <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="form">
+            <i class="fas fa-search"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header  -->
+    <!-- start landing -->
+    <div class="landing">
+      <div class="overlay"></div>
+      <div class="text">
+        <div class="content">
+          <h2>Hello world we are Kasper we make art.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            ea est maxime deserunt, eos, id pariatur sit quia, voluptate velit
+            sed. Perspiciatis ut eveniet temporibus incidunt quas sit ea rerum.
+          </p>
+        </div>
+      </div>
+      <i class="fas fa-angle-left change-background fa-2x"></i>
+      <i class="fas fa-angle-right change-background fa-2x"></i>
+      <ul class="bullets">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <!-- end landing -->
+    <!-- start services -->
+
+    <div class="section">
+      <div class="main-headding">
+        <h2>services</h2>
+        <p>
+          Curabitur arcu erat, accumsan id imperdiet et, Porttitor at sem.
+          Mauris blandit aliquest
+        </p>
+      </div>
+    </div>
+    <!-- end services -->
+  </body>
+</html>
